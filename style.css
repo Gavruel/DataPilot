@@ -58,6 +58,7 @@ body{
 
 a{
     color: var(--color-dark);
+    width: calc(1rem - 3px);
 }
 
 img{
@@ -159,6 +160,56 @@ aside .sidebar{
     transition: all 0.3s ease;
 }
 
+aside .sidebar:hover{
+    box-shadow: none;
+}
+
+aside .sidebar a{
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    height: 3.7rem;
+    gap: 1rem;
+    position: relative;
+    transition: all 0.2s ease;
+    color: var(--color-info-dark);
+}
+
+aside .sidebar a span{
+    font-size: 1.6rem;
+    transition: all 0.3s ease;
+}
+
+aside .sidebar a:last-child{
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+}
+
+aside .sidebar a.active{
+    width: 100%;
+    color: var(--color-primary);
+    background-color: var(--color-light);
+    margin-left: 0;
+}
+
+aside .sidebar a.active::before{
+    content: '';
+    width: 6px;
+    height: 18px;
+    background-color: var(--color-primary);
+}
+
+aside .sidebar a.active span{
+    color: var(--color-primary);
+    margin-left: calc(1rem - 3px);
+
+}
+
+aside .sidebar a:hover{
+    color: var(--color-primary);
+}
 
 
-/*19:16*/
+
+/*19:10*/
