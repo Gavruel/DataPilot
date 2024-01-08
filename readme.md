@@ -1,6 +1,6 @@
 # Projeto DataPilot
 
-Bem-vindo ao Projeto DataPilot! Este é um projeto criado com o propósito de aprimorar minhas habilidades em programação e desenvolvimento fullstack de sites. Meu objetivo é percorrer uma jornada através das seguintes etapas:
+Bem-vindo ao Projeto DataPilot! Este é um projeto criado com o propósito de aprimorar minhas habilidades em programação e desenvolvimento fullstack. Meu objetivo é percorrer uma jornada através das seguintes etapas:
 
 ## O que Estou Planejando?
 
